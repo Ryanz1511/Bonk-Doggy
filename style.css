@@ -61,9 +61,39 @@ body {
   }
 }
 
-p,
+#counter,
 h1 {
   font-family: sans-serif;
   font-size: 2em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.socialAcount {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.socialAcount p {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.socialAcount img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.github {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 70%;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
 }
